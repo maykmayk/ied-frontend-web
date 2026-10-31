@@ -1,0 +1,4 @@
+/* Una sola riga: carica tutto Tailwind CSS 4.
+   Da qui in poi puoi usare le classi di Tailwind (text-3xl, font-bold, ...) nei componenti.
+   Non serve nessun file di configurazione. */
+@import "tailwindcss";

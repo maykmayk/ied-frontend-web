@@ -1,0 +1,21 @@
+<!doctype html>
+<!-- Dice al browser che questo è un documento HTML moderno. -->
+<html lang="it">
+  <!-- lang="it": la pagina è in italiano. Aiuta i lettori di schermo e i traduttori automatici. -->
+  <head>
+    <!-- Codifica dei caratteri: fa vedere correttamente accenti ed emoji. -->
+    <meta charset="UTF-8" />
+    <!-- L'icona nella scheda del browser. Il file è in public/favicon.svg. -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <!-- Fa adattare la pagina alla larghezza dello schermo del telefono. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Il titolo nella scheda del browser. -->
+    <title>Lezione 1 · Dalla pagina ai componenti</title>
+  </head>
+  <body>
+    <!-- Un div vuoto: React disegnerà tutta l'interfaccia qui dentro (vedi src/main.tsx). -->
+    <div id="root"></div>
+    <!-- Carica il primo file JavaScript. type="module" permette di usare import ed export. -->
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
